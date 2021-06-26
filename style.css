@@ -1,0 +1,38 @@
+.Origami{
+  border : solid;  
+}
+h1{
+   margin-left : 550px 
+}
+.Img {
+    border:solid;
+    display : flex;
+    justify-content: space-evenly;
+    border-style: dotted;
+}
+.Img img {
+    border:solid ;
+}
+.items{
+    position : relative;
+}
+a:link{
+    color:silver
+}
+a:visited{
+color:violet
+}
+.items li {
+   position: absolute;
+   top: 50%;
+   left:50%;
+   transform : translate(-50%,-50%);
+   opacity: 0;
+}
+.item hover li {
+    opacity: 1;
+    font-size:30px;
+}
+.item hover img {
+    opacity:0.333
+}
